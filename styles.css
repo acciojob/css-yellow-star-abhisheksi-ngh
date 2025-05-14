@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.star {
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  clip-path: polygon(
+    50% 0%,     /* top point */
+    61% 35%,    /* upper right */
+    98% 35%,    /* far right */
+    68% 57%,    /* lower right */
+    79% 91%,    /* bottom right */
+    50% 70%,    /* bottom center */
+    21% 91%,    /* bottom left */
+    32% 57%,    /* lower left */
+    2% 35%,     /* far left */
+    39% 35%     /* upper left */
+  );
+  transform: rotate(-360deg); /* Left corner of top aligned */
+}
